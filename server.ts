@@ -6,7 +6,6 @@
 import express from 'express';
 import path from 'path';
 import fs from 'fs';
-import { createServer as createViteServer } from 'vite';
 import { createClient } from '@supabase/supabase-js';
 import * as dotenv from 'dotenv';
 dotenv.config({ path: '.env.local' });
@@ -1270,6 +1269,7 @@ app.post('/api/settings/backup', requireRoles(['Super Admin','Admin']), (req, re
 // Serve frontend static build files in production, Vite middleware in development
 const startServer = async () => {
   if (process.env.NODE_ENV !== 'production') {
+    const { createServer: createViteServer } = await import('vite');
     const vite = await createViteServer({
       server: { middlewareMode: true },
       appType: 'spa',

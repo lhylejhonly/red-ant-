@@ -247,11 +247,15 @@ function AppContent() {
           }
         }
       } else {
-        const errData = await res.json();
-        showToast(errData.error || 'Invalid credentials.', 'error');
+        const contentType = res.headers.get('content-type') || '';
+        const errData = contentType.includes('application/json')
+          ? await res.json()
+          : { error: await res.text() };
+        showToast(errData.error || `Login failed (${res.status}).`, 'error');
       }
     } catch (err) {
-      showToast('Login server connection failed.', 'error');
+      const message = err instanceof Error ? err.message : 'Unknown network error';
+      showToast(`Login server connection failed: ${message}`, 'error');
     }
   };
 
