@@ -83,10 +83,17 @@ const supabase = hasSupabaseEnv
 
 
 
-// Path to persistent DB file (fallback)
-const DB_DIR = path.join(process.cwd(), 'data');
+// Path to JSON DB file (fallback).
+// Vercel functions can only write safely to /tmp, so use bundled data as a
+// seed there. For persistent production data on Vercel, Supabase is required.
+const SOURCE_DB_PATH = path.join(process.cwd(), 'data', 'pos_db.json');
+const DB_DIR = process.env.VERCEL ? path.join('/tmp', 'red-ant-store-data') : path.join(process.cwd(), 'data');
 const DB_PATH = path.join(DB_DIR, 'pos_db.json');
-if (!fs.existsSync(DB_DIR)) fs.mkdirSync(DB_DIR, { recursive: true });
+try {
+  if (!fs.existsSync(DB_DIR)) fs.mkdirSync(DB_DIR, { recursive: true });
+} catch (err) {
+  console.error('Error preparing file-based JSON DB directory:', err);
+}
 
 // Initial seed data - minimal Super Admin only
 const initialSeed = {
@@ -234,8 +241,14 @@ const generateHistoricalOrders = () => {
 const readDB = () => {
   try {
     let db: any;
-    if (fs.existsSync(DB_PATH)) {
-      const rawData = fs.readFileSync(DB_PATH, 'utf8');
+    const readableDbPath = fs.existsSync(DB_PATH)
+      ? DB_PATH
+      : process.env.VERCEL && fs.existsSync(SOURCE_DB_PATH)
+        ? SOURCE_DB_PATH
+        : '';
+
+    if (readableDbPath) {
+      const rawData = fs.readFileSync(readableDbPath, 'utf8');
       db = JSON.parse(rawData);
     } else {
       // If db file doesn't exist, generate empty seed
