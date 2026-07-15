@@ -16,7 +16,7 @@ import {
   PaymentSplit, UserRole, SentEmail
 } from './src/types';
 
-const app = express();
+export const app = express();
 
 // ------------------------------
 // Simple role enforcement (mock)
@@ -1275,6 +1275,10 @@ const startServer = async () => {
   });
 };
 
-startServer().catch((err) => {
-  console.error('Vite dev middleware server failed to start:', err);
-});
+if (!process.env.VERCEL) {
+  startServer().catch((err) => {
+    console.error('Vite dev middleware server failed to start:', err);
+  });
+}
+
+export default app;
