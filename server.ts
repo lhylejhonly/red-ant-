@@ -95,6 +95,15 @@ try {
   console.error('Error preparing file-based JSON DB directory:', err);
 }
 
+app.get('/api/health', (_req, res) => {
+  res.json({
+    ok: true,
+    runtime: process.env.VERCEL ? 'vercel' : 'node',
+    hasSupabaseEnv,
+    dbPath: DB_PATH
+  });
+});
+
 // Initial seed data - minimal Super Admin only
 const initialSeed = {
   users: [
