@@ -1,0 +1,6 @@
+{
+  "name": "Red Ant Store",
+  "description": "A premium, full-stack enterprise Point of Sale (POS) system designed with a warm, modern Earth Tone theme, robust multi-role dashboards, instant barcode scanning simulation, split payments, inventory audit trails, and multi-branch tracking.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

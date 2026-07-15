@@ -1,0 +1,1270 @@
+{
+  "users": [
+    {
+      "id": "usr_1",
+      "name": "Melliza Peleayo",
+      "email": "melliza@redantstore.com",
+      "role": "Super Admin",
+      "avatarUrl": "",
+      "is2FAEnabled": false,
+      "pin": "0707"
+    },
+    {
+      "id": "usr_1783620921366",
+      "name": "lylepelayo",
+      "email": "lylepelayo@gmail.com",
+      "role": "Cashier",
+      "avatarUrl": "",
+      "is2FAEnabled": false,
+      "pin": "1000"
+    }
+  ],
+  "categories": [],
+  "suppliers": [],
+  "products": [
+    {
+      "sku": "SKU_TEST_1",
+      "barcode": "BC_TEST_1",
+      "name": "Test Product 1",
+      "categoryId": "",
+      "supplierId": "",
+      "brand": "BrandA",
+      "cost": 10,
+      "sellingPrice": 25,
+      "wholesalePrice": 18,
+      "stock": 19,
+      "minStockAlert": 5,
+      "taxRate": 12,
+      "discountRate": 10,
+      "warranty": "N/A",
+      "image": "",
+      "variants": {
+        "color": [
+          "Red"
+        ],
+        "size": [
+          "Standard"
+        ]
+      },
+      "isEssential": false,
+      "isDigital": false,
+      "id": "prod_1783622737307",
+      "isArchived": true,
+      "qrCode": "QR_BC_TEST_1"
+    },
+    {
+      "sku": "SKU-697798",
+      "barcode": "242449083168",
+      "name": "milo",
+      "description": "",
+      "categoryId": "",
+      "brand": "",
+      "supplierId": "",
+      "cost": 10,
+      "sellingPrice": 25,
+      "wholesalePrice": 18,
+      "stock": 20,
+      "minStockAlert": 5,
+      "taxRate": 12,
+      "discountRate": 0,
+      "warranty": "N/A",
+      "image": "",
+      "variants": {
+        "color": [
+          "Rustic Terracotta",
+          "Sand Cream"
+        ],
+        "size": [
+          "Standard"
+        ]
+      },
+      "isDigital": false,
+      "isEssential": false,
+      "id": "prod_1784042704646",
+      "isArchived": true,
+      "qrCode": "QR_242449083168"
+    },
+    {
+      "sku": "SKU-554234",
+      "barcode": "845228732348",
+      "name": "milo",
+      "description": "",
+      "categoryId": "",
+      "brand": "",
+      "supplierId": "",
+      "cost": 10,
+      "sellingPrice": 25,
+      "wholesalePrice": 18,
+      "stock": 0,
+      "minStockAlert": 5,
+      "taxRate": 12,
+      "discountRate": 0,
+      "warranty": "N/A",
+      "image": "data:image/jpeg;base64,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",
+      "variants": {
+        "color": [
+          "Rustic Terracotta",
+          "Sand Cream"
+        ],
+        "size": [
+          "Standard"
+        ]
+      },
+      "isDigital": false,
+      "isEssential": true,
+      "id": "prod_1784043568119",
+      "isArchived": false,
+      "qrCode": "QR_845228732348"
+    },
+    {
+      "sku": "SKU-563133",
+      "barcode": "116650848732",
+      "name": "milo",
+      "description": "",
+      "categoryId": "",
+      "brand": "",
+      "supplierId": "",
+      "cost": 10,
+      "sellingPrice": 25,
+      "wholesalePrice": 18,
+      "stock": 3,
+      "minStockAlert": 5,
+      "taxRate": 12,
+      "discountRate": 0,
+      "warranty": "N/A",
+      "image": "data:image/jpeg;base64,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",
+      "variants": {
+        "color": [
+          "Rustic Terracotta",
+          "Sand Cream"
+        ],
+        "size": [
+          "Standard"
+        ]
+      },
+      "isDigital": false,
+      "isEssential": false,
+      "id": "prod_1784044577653",
+      "isArchived": false,
+      "qrCode": "QR_116650848732"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord_1784060093871",
+      "receiptNumber": "TR-100019",
+      "timestamp": "2026-07-14T20:14:53.871Z",
+      "cashierId": "usr_1",
+      "cashierName": "Melliza Peleayo",
+      "branchId": "BR-01",
+      "items": [
+        {
+          "productId": "prod_1784044577653",
+          "name": "milo",
+          "sku": "SKU-563133",
+          "quantity": 1,
+          "sellingPrice": 25,
+          "cost": 10,
+          "taxPaid": 3,
+          "discountApplied": 0,
+          "variantInfo": "Rustic Terracotta / Standard"
+        }
+      ],
+      "subtotal": 25,
+      "taxTotal": 0,
+      "serviceCharge": 0,
+      "discountTotal": 0,
+      "grandTotal": 25,
+      "payments": [
+        {
+          "method": "Cash",
+          "amount": 25
+        }
+      ],
+      "amountPaid": 25,
+      "changeAmount": 0,
+      "status": "Completed",
+      "notes": ""
+    },
+    {
+      "id": "ord_1784059592619",
+      "receiptNumber": "TR-100018",
+      "timestamp": "2026-07-14T20:06:32.619Z",
+      "cashierId": "usr_1",
+      "cashierName": "Melliza Peleayo",
+      "branchId": "BR-01",
+      "items": [
+        {
+          "productId": "prod_1784044577653",
+          "name": "milo",
+          "sku": "SKU-563133",
+          "quantity": 3,
+          "sellingPrice": 25,
+          "cost": 10,
+          "taxPaid": 9,
+          "discountApplied": 0,
+          "variantInfo": "Rustic Terracotta / Standard"
+        }
+      ],
+      "subtotal": 75,
+      "taxTotal": 0,
+      "serviceCharge": 0,
+      "discountTotal": 0,
+      "grandTotal": 75,
+      "payments": [
+        {
+          "method": "Cash",
+          "amount": 75
+        }
+      ],
+      "amountPaid": 90,
+      "changeAmount": 15,
+      "status": "Completed",
+      "notes": ""
+    },
+    {
+      "id": "ord_1784059191846",
+      "receiptNumber": "TR-100017",
+      "timestamp": "2026-07-14T19:59:51.847Z",
+      "cashierId": "usr_1",
+      "cashierName": "Melliza Peleayo",
+      "branchId": "BR-01",
+      "items": [
+        {
+          "productId": "prod_1784043568119",
+          "name": "milo",
+          "sku": "SKU-554234",
+          "quantity": 1,
+          "sellingPrice": 25,
+          "cost": 10,
+          "taxPaid": 3,
+          "discountApplied": 0,
+          "variantInfo": "Rustic Terracotta / Standard"
+        }
+      ],
+      "subtotal": 25,
+      "taxTotal": 0,
+      "serviceCharge": 0,
+      "discountTotal": 0,
+      "grandTotal": 25,
+      "payments": [
+        {
+          "method": "Cash",
+          "amount": 25
+        }
+      ],
+      "amountPaid": 25,
+      "changeAmount": 0,
+      "status": "Completed",
+      "notes": ""
+    },
+    {
+      "id": "ord_1784056371753",
+      "receiptNumber": "TR-100016",
+      "timestamp": "2026-07-14T19:12:51.753Z",
+      "cashierId": "usr_1",
+      "cashierName": "Melliza Peleayo",
+      "branchId": "BR-01",
+      "items": [
+        {
+          "productId": "prod_1784044577653",
+          "name": "milo",
+          "sku": "SKU-563133",
+          "quantity": 1,
+          "sellingPrice": 25,
+          "cost": 10,
+          "taxPaid": 3,
+          "discountApplied": 0,
+          "variantInfo": "Rustic Terracotta / Standard"
+        }
+      ],
+      "subtotal": 25,
+      "taxTotal": 0,
+      "serviceCharge": 0,
+      "discountTotal": 0,
+      "grandTotal": 25,
+      "payments": [
+        {
+          "method": "Cash",
+          "amount": 25
+        }
+      ],
+      "amountPaid": 25,
+      "changeAmount": 0,
+      "status": "Completed",
+      "notes": ""
+    },
+    {
+      "id": "ord_1784055687503",
+      "receiptNumber": "TR-100015",
+      "timestamp": "2026-07-14T19:01:27.503Z",
+      "cashierId": "usr_1",
+      "cashierName": "Melliza Peleayo",
+      "branchId": "BR-01",
+      "items": [
+        {
+          "productId": "prod_1784044577653",
+          "name": "milo",
+          "sku": "SKU-563133",
+          "quantity": 1,
+          "sellingPrice": 25,
+          "cost": 10,
+          "taxPaid": 3,
+          "discountApplied": 0,
+          "variantInfo": "Rustic Terracotta / Standard"
+        }
+      ],
+      "subtotal": 25,
+      "taxTotal": 0,
+      "serviceCharge": 0,
+      "discountTotal": 0,
+      "grandTotal": 25,
+      "payments": [
+        {
+          "method": "Cash",
+          "amount": 25
+        }
+      ],
+      "amountPaid": 25,
+      "changeAmount": 0,
+      "status": "Completed",
+      "notes": ""
+    },
+    {
+      "id": "ord_1784054274238",
+      "receiptNumber": "TR-100014",
+      "timestamp": "2026-07-14T18:37:54.238Z",
+      "cashierId": "usr_1",
+      "cashierName": "Melliza Peleayo",
+      "branchId": "BR-01",
+      "items": [
+        {
+          "productId": "prod_1784044577653",
+          "name": "milo",
+          "sku": "SKU-563133",
+          "quantity": 1,
+          "sellingPrice": 25,
+          "cost": 10,
+          "taxPaid": 3,
+          "discountApplied": 0,
+          "variantInfo": "Rustic Terracotta / Standard"
+        }
+      ],
+      "subtotal": 25,
+      "taxTotal": 0,
+      "serviceCharge": 0,
+      "discountTotal": 0,
+      "grandTotal": 25,
+      "payments": [
+        {
+          "method": "Cash",
+          "amount": 25
+        }
+      ],
+      "amountPaid": 25,
+      "changeAmount": 0,
+      "status": "Completed",
+      "notes": ""
+    },
+    {
+      "id": "ord_1784054053633",
+      "receiptNumber": "TR-100013",
+      "timestamp": "2026-07-14T18:34:13.633Z",
+      "cashierId": "usr_1",
+      "cashierName": "Melliza Peleayo",
+      "branchId": "BR-01",
+      "items": [
+        {
+          "productId": "prod_1784043568119",
+          "name": "milo",
+          "sku": "SKU-554234",
+          "quantity": 1,
+          "sellingPrice": 25,
+          "cost": 10,
+          "taxPaid": 3,
+          "discountApplied": 0,
+          "variantInfo": "Rustic Terracotta / Standard"
+        }
+      ],
+      "subtotal": 25,
+      "taxTotal": 0,
+      "serviceCharge": 0,
+      "discountTotal": 0,
+      "grandTotal": 25,
+      "payments": [
+        {
+          "method": "Cash",
+          "amount": 25
+        }
+      ],
+      "amountPaid": 25,
+      "changeAmount": 0,
+      "status": "Completed",
+      "notes": ""
+    },
+    {
+      "id": "ord_1784054026697",
+      "receiptNumber": "TR-100012",
+      "timestamp": "2026-07-14T18:33:46.697Z",
+      "cashierId": "usr_1",
+      "cashierName": "Melliza Peleayo",
+      "branchId": "BR-01",
+      "items": [
+        {
+          "productId": "prod_1784044577653",
+          "name": "milo",
+          "sku": "SKU-563133",
+          "quantity": 1,
+          "sellingPrice": 25,
+          "cost": 10,
+          "taxPaid": 3,
+          "discountApplied": 0,
+          "variantInfo": "Rustic Terracotta / Standard"
+        }
+      ],
+      "subtotal": 25,
+      "taxTotal": 0,
+      "serviceCharge": 0,
+      "discountTotal": 0,
+      "grandTotal": 25,
+      "payments": [
+        {
+          "method": "Cash",
+          "amount": 25
+        }
+      ],
+      "amountPaid": 25,
+      "changeAmount": 0,
+      "status": "Completed",
+      "notes": ""
+    },
+    {
+      "id": "ord_1784050705603",
+      "receiptNumber": "TR-100011",
+      "timestamp": "2026-07-14T17:38:25.603Z",
+      "cashierId": "usr_1",
+      "cashierName": "Melliza Peleayo",
+      "branchId": "BR-01",
+      "items": [
+        {
+          "productId": "prod_1784044577653",
+          "name": "milo",
+          "sku": "SKU-563133",
+          "quantity": 1,
+          "sellingPrice": 25,
+          "cost": 10,
+          "taxPaid": 3,
+          "discountApplied": 0,
+          "variantInfo": "Rustic Terracotta / Standard"
+        }
+      ],
+      "subtotal": 25,
+      "taxTotal": 0,
+      "serviceCharge": 0,
+      "discountTotal": 0,
+      "grandTotal": 25,
+      "payments": [
+        {
+          "method": "Cash",
+          "amount": 25
+        }
+      ],
+      "amountPaid": 25,
+      "changeAmount": 0,
+      "status": "Completed",
+      "notes": ""
+    },
+    {
+      "id": "ord_1784049585864",
+      "receiptNumber": "TR-100010",
+      "timestamp": "2026-07-14T17:19:45.864Z",
+      "cashierId": "usr_1",
+      "cashierName": "Melliza Peleayo",
+      "branchId": "BR-01",
+      "items": [
+        {
+          "productId": "prod_1784044577653",
+          "name": "milo",
+          "sku": "SKU-563133",
+          "quantity": 1,
+          "sellingPrice": 25,
+          "cost": 10,
+          "taxPaid": 3,
+          "discountApplied": 0,
+          "variantInfo": "Rustic Terracotta / Standard"
+        }
+      ],
+      "subtotal": 25,
+      "taxTotal": 0,
+      "serviceCharge": 0,
+      "discountTotal": 0,
+      "grandTotal": 25,
+      "payments": [
+        {
+          "method": "Cash",
+          "amount": 25
+        }
+      ],
+      "amountPaid": 25,
+      "changeAmount": 0,
+      "status": "Completed",
+      "notes": ""
+    },
+    {
+      "id": "ord_1784049314471",
+      "receiptNumber": "TR-100009",
+      "timestamp": "2026-07-14T17:15:14.471Z",
+      "cashierId": "usr_1",
+      "cashierName": "Melliza Peleayo",
+      "branchId": "BR-01",
+      "items": [
+        {
+          "productId": "prod_1784044577653",
+          "name": "milo",
+          "sku": "SKU-563133",
+          "quantity": 1,
+          "sellingPrice": 25,
+          "cost": 10,
+          "taxPaid": 3,
+          "discountApplied": 0,
+          "variantInfo": "Rustic Terracotta / Standard"
+        }
+      ],
+      "subtotal": 25,
+      "taxTotal": 0,
+      "serviceCharge": 0,
+      "discountTotal": 0,
+      "grandTotal": 25,
+      "payments": [
+        {
+          "method": "Cash",
+          "amount": 25
+        }
+      ],
+      "amountPaid": 25,
+      "changeAmount": 0,
+      "status": "Completed",
+      "notes": ""
+    },
+    {
+      "id": "ord_1784048986665",
+      "receiptNumber": "TR-100008",
+      "timestamp": "2026-07-14T17:09:46.665Z",
+      "cashierId": "usr_1",
+      "cashierName": "Melliza Peleayo",
+      "branchId": "BR-01",
+      "items": [
+        {
+          "productId": "prod_1784044577653",
+          "name": "milo",
+          "sku": "SKU-563133",
+          "quantity": 1,
+          "sellingPrice": 25,
+          "cost": 10,
+          "taxPaid": 3,
+          "discountApplied": 0,
+          "variantInfo": "Rustic Terracotta / Standard"
+        }
+      ],
+      "subtotal": 25,
+      "taxTotal": 0,
+      "serviceCharge": 0,
+      "discountTotal": 0,
+      "grandTotal": 25,
+      "payments": [
+        {
+          "method": "Cash",
+          "amount": 25
+        }
+      ],
+      "amountPaid": 25,
+      "changeAmount": 0,
+      "status": "Completed",
+      "notes": ""
+    },
+    {
+      "id": "ord_1784048952257",
+      "receiptNumber": "TR-100007",
+      "timestamp": "2026-07-14T17:09:12.257Z",
+      "cashierId": "usr_1",
+      "cashierName": "Melliza Peleayo",
+      "branchId": "BR-01",
+      "items": [
+        {
+          "productId": "prod_1784044577653",
+          "name": "milo",
+          "sku": "SKU-563133",
+          "quantity": 1,
+          "sellingPrice": 25,
+          "cost": 10,
+          "taxPaid": 3,
+          "discountApplied": 0,
+          "variantInfo": "Rustic Terracotta / Standard"
+        }
+      ],
+      "subtotal": 25,
+      "taxTotal": 0,
+      "serviceCharge": 0,
+      "discountTotal": 0,
+      "grandTotal": 25,
+      "payments": [
+        {
+          "method": "Cash",
+          "amount": 25
+        }
+      ],
+      "amountPaid": 25,
+      "changeAmount": 0,
+      "status": "Completed",
+      "notes": ""
+    },
+    {
+      "id": "ord_1784048859518",
+      "receiptNumber": "TR-100006",
+      "timestamp": "2026-07-14T17:07:39.518Z",
+      "cashierId": "usr_1",
+      "cashierName": "Melliza Peleayo",
+      "branchId": "BR-01",
+      "items": [
+        {
+          "productId": "prod_1784044577653",
+          "name": "milo",
+          "sku": "SKU-563133",
+          "quantity": 1,
+          "sellingPrice": 25,
+          "cost": 10,
+          "taxPaid": 3,
+          "discountApplied": 0,
+          "variantInfo": "Rustic Terracotta / Standard"
+        }
+      ],
+      "subtotal": 25,
+      "taxTotal": 0,
+      "serviceCharge": 0,
+      "discountTotal": 0,
+      "grandTotal": 25,
+      "payments": [
+        {
+          "method": "Cash",
+          "amount": 25
+        }
+      ],
+      "amountPaid": 25,
+      "changeAmount": 0,
+      "status": "Completed",
+      "notes": ""
+    },
+    {
+      "id": "ord_1784048847390",
+      "receiptNumber": "TR-100005",
+      "timestamp": "2026-07-14T17:07:27.390Z",
+      "cashierId": "usr_1",
+      "cashierName": "Melliza Peleayo",
+      "branchId": "BR-01",
+      "items": [
+        {
+          "productId": "prod_1784044577653",
+          "name": "milo",
+          "sku": "SKU-563133",
+          "quantity": 1,
+          "sellingPrice": 25,
+          "cost": 10,
+          "taxPaid": 3,
+          "discountApplied": 0,
+          "variantInfo": "Rustic Terracotta / Standard"
+        }
+      ],
+      "subtotal": 25,
+      "taxTotal": 0,
+      "serviceCharge": 0,
+      "discountTotal": 0,
+      "grandTotal": 25,
+      "payments": [
+        {
+          "method": "Cash",
+          "amount": 25
+        }
+      ],
+      "amountPaid": 25,
+      "changeAmount": 0,
+      "status": "Completed",
+      "notes": ""
+    },
+    {
+      "id": "ord_1784048628761",
+      "receiptNumber": "TR-100004",
+      "timestamp": "2026-07-14T17:03:48.761Z",
+      "cashierId": "usr_1",
+      "cashierName": "Melliza Peleayo",
+      "branchId": "BR-01",
+      "items": [
+        {
+          "productId": "prod_1784044577653",
+          "name": "milo",
+          "sku": "SKU-563133",
+          "quantity": 1,
+          "sellingPrice": 25,
+          "cost": 10,
+          "taxPaid": 3,
+          "discountApplied": 0,
+          "variantInfo": "Rustic Terracotta / Standard"
+        }
+      ],
+      "subtotal": 25,
+      "taxTotal": 0,
+      "serviceCharge": 0,
+      "discountTotal": 0,
+      "grandTotal": 25,
+      "payments": [
+        {
+          "method": "Cash",
+          "amount": 25
+        }
+      ],
+      "amountPaid": 25,
+      "changeAmount": 0,
+      "status": "Completed",
+      "notes": ""
+    },
+    {
+      "id": "ord_1784046545605",
+      "receiptNumber": "TR-100003",
+      "timestamp": "2026-07-14T16:29:05.605Z",
+      "cashierId": "usr_1",
+      "cashierName": "Melliza Peleayo",
+      "branchId": "BR-01",
+      "items": [
+        {
+          "productId": "prod_1784044577653",
+          "name": "milo",
+          "sku": "SKU-563133",
+          "quantity": 1,
+          "sellingPrice": 25,
+          "cost": 10,
+          "taxPaid": 3,
+          "discountApplied": 0,
+          "variantInfo": "Rustic Terracotta / Standard"
+        }
+      ],
+      "subtotal": 25,
+      "taxTotal": 0,
+      "serviceCharge": 0,
+      "discountTotal": 0,
+      "grandTotal": 25,
+      "payments": [
+        {
+          "method": "Cash",
+          "amount": 25
+        }
+      ],
+      "amountPaid": 25,
+      "changeAmount": 0,
+      "status": "Completed",
+      "notes": ""
+    },
+    {
+      "id": "ord_1784045497259",
+      "receiptNumber": "TR-100002",
+      "timestamp": "2026-07-14T16:11:37.259Z",
+      "cashierId": "usr_1",
+      "cashierName": "Melliza Peleayo",
+      "branchId": "BR-01",
+      "items": [
+        {
+          "productId": "prod_1784043568119",
+          "name": "milo",
+          "sku": "SKU-554234",
+          "quantity": 18,
+          "sellingPrice": 25,
+          "cost": 10,
+          "taxPaid": 54,
+          "discountApplied": 0,
+          "variantInfo": "Rustic Terracotta / Standard"
+        }
+      ],
+      "subtotal": 450,
+      "taxTotal": 54,
+      "serviceCharge": 22.5,
+      "discountTotal": 0,
+      "grandTotal": 526.5,
+      "payments": [
+        {
+          "method": "Cash",
+          "amount": 526.5
+        }
+      ],
+      "amountPaid": 600,
+      "changeAmount": 73.5,
+      "status": "Completed",
+      "notes": ""
+    },
+    {
+      "id": "ord_1784032413303",
+      "receiptNumber": "TR-100001",
+      "timestamp": "2026-07-14T12:33:33.303Z",
+      "cashierId": "usr_1",
+      "cashierName": "Melliza Peleayo",
+      "branchId": "BR-01",
+      "items": [
+        {
+          "productId": "prod_1783622737307",
+          "name": "Test Product 1",
+          "sku": "SKU_TEST_1",
+          "quantity": 1,
+          "sellingPrice": 25,
+          "cost": 10,
+          "taxPaid": 2.6999999999999997,
+          "discountApplied": 2.5,
+          "variantInfo": "Red / Standard"
+        }
+      ],
+      "subtotal": 22.5,
+      "taxTotal": 2.6999999999999997,
+      "serviceCharge": 1.125,
+      "discountTotal": 0,
+      "grandTotal": 26.325,
+      "payments": [
+        {
+          "method": "Cash",
+          "amount": 26.325
+        }
+      ],
+      "amountPaid": 30,
+      "changeAmount": 3.6750000000000007,
+      "status": "Completed",
+      "notes": ""
+    }
+  ],
+  "heldTransactions": [],
+  "expenses": [],
+  "settings": {
+    "companyName": "Red Ant Store",
+    "address": "88 Earth Tone Boulevard, Design District, Manila",
+    "phone": "+63 2 8123 4567",
+    "email": "hello@terracottacafe.com",
+    "taxRate": 12,
+    "serviceChargeRate": 5,
+    "currency": "₱",
+    "timezone": "Asia/Manila",
+    "language": "English",
+    "storeLogoUrl": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=100",
+    "receiptLogoUrl": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=100",
+    "receiptFooter": "Thank you for supporting sustainable design and single-origin craft.",
+    "enableSMS": true,
+    "enableEmail": true,
+    "enable2FA": false,
+    "printerIp": "192.168.1.250",
+    "barcodeFormat": "EAN-13"
+  },
+  "notifications": [
+    {
+      "id": "ntf_1784060093869_low",
+      "type": "Low Stock",
+      "title": "Low Stock: milo",
+      "message": "milo stock level is down to 3 units.",
+      "timestamp": "2026-07-14T20:14:53.869Z",
+      "isRead": false
+    },
+    {
+      "id": "ntf_1784059592619_low",
+      "type": "Low Stock",
+      "title": "Low Stock: milo",
+      "message": "milo stock level is down to 4 units.",
+      "timestamp": "2026-07-14T20:06:32.619Z",
+      "isRead": false
+    },
+    {
+      "id": "ntf_1784059191845_oos",
+      "type": "Out of Stock",
+      "title": "Out of Stock: milo",
+      "message": "milo has completely run out of stock.",
+      "timestamp": "2026-07-14T19:59:51.845Z",
+      "isRead": false
+    },
+    {
+      "id": "ntf_1784054053633_low",
+      "type": "Low Stock",
+      "title": "Low Stock: milo",
+      "message": "milo stock level is down to 1 units.",
+      "timestamp": "2026-07-14T18:34:13.633Z",
+      "isRead": false
+    },
+    {
+      "id": "ntf_1784045497255_low",
+      "type": "Low Stock",
+      "title": "Low Stock: milo",
+      "message": "milo stock level is down to 2 units.",
+      "timestamp": "2026-07-14T16:11:37.255Z",
+      "isRead": false
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log_1784060093871",
+      "timestamp": "2026-07-14T20:14:53.871Z",
+      "userId": "usr_1",
+      "userName": "Melliza Peleayo",
+      "userRole": "Cashier",
+      "action": "Create Order",
+      "details": "Recorded sale TR-100019 total ₱25",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log_1784060080442",
+      "timestamp": "2026-07-14T20:14:40.442Z",
+      "userId": "usr_1",
+      "userName": "Melliza Peleayo",
+      "userRole": "Super Admin",
+      "action": "Login",
+      "details": "Successful PIN login.",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log_1784059592619",
+      "timestamp": "2026-07-14T20:06:32.619Z",
+      "userId": "usr_1",
+      "userName": "Melliza Peleayo",
+      "userRole": "Cashier",
+      "action": "Create Order",
+      "details": "Recorded sale TR-100018 total ₱75",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log_1784059191847",
+      "timestamp": "2026-07-14T19:59:51.847Z",
+      "userId": "usr_1",
+      "userName": "Melliza Peleayo",
+      "userRole": "Cashier",
+      "action": "Create Order",
+      "details": "Recorded sale TR-100017 total ₱25",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log_1784059178146",
+      "timestamp": "2026-07-14T19:59:38.146Z",
+      "userId": "usr_1",
+      "userName": "Melliza Peleayo",
+      "userRole": "Super Admin",
+      "action": "Login",
+      "details": "Successful PIN login.",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log_1784056371753",
+      "timestamp": "2026-07-14T19:12:51.753Z",
+      "userId": "usr_1",
+      "userName": "Melliza Peleayo",
+      "userRole": "Cashier",
+      "action": "Create Order",
+      "details": "Recorded sale TR-100016 total ₱25",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log_1784055687503",
+      "timestamp": "2026-07-14T19:01:27.503Z",
+      "userId": "usr_1",
+      "userName": "Melliza Peleayo",
+      "userRole": "Cashier",
+      "action": "Create Order",
+      "details": "Recorded sale TR-100015 total ₱25",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log_1784055672383",
+      "timestamp": "2026-07-14T19:01:12.383Z",
+      "userId": "usr_1",
+      "userName": "Melliza Peleayo",
+      "userRole": "Super Admin",
+      "action": "Login",
+      "details": "Successful PIN login.",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log_1784054274238",
+      "timestamp": "2026-07-14T18:37:54.238Z",
+      "userId": "usr_1",
+      "userName": "Melliza Peleayo",
+      "userRole": "Cashier",
+      "action": "Create Order",
+      "details": "Recorded sale TR-100014 total ₱25",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log_1784054053633",
+      "timestamp": "2026-07-14T18:34:13.633Z",
+      "userId": "usr_1",
+      "userName": "Melliza Peleayo",
+      "userRole": "Cashier",
+      "action": "Create Order",
+      "details": "Recorded sale TR-100013 total ₱25",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log_1784054026697",
+      "timestamp": "2026-07-14T18:33:46.697Z",
+      "userId": "usr_1",
+      "userName": "Melliza Peleayo",
+      "userRole": "Cashier",
+      "action": "Create Order",
+      "details": "Recorded sale TR-100012 total ₱25",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log_1784054011692",
+      "timestamp": "2026-07-14T18:33:31.692Z",
+      "userId": "usr_1",
+      "userName": "Melliza Peleayo",
+      "userRole": "Super Admin",
+      "action": "Login",
+      "details": "Successful PIN login.",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log_1784050705603",
+      "timestamp": "2026-07-14T17:38:25.603Z",
+      "userId": "usr_1",
+      "userName": "Melliza Peleayo",
+      "userRole": "Cashier",
+      "action": "Create Order",
+      "details": "Recorded sale TR-100011 total ₱25",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log_1784049585864",
+      "timestamp": "2026-07-14T17:19:45.864Z",
+      "userId": "usr_1",
+      "userName": "Melliza Peleayo",
+      "userRole": "Cashier",
+      "action": "Create Order",
+      "details": "Recorded sale TR-100010 total ₱25",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log_1784049314471",
+      "timestamp": "2026-07-14T17:15:14.471Z",
+      "userId": "usr_1",
+      "userName": "Melliza Peleayo",
+      "userRole": "Cashier",
+      "action": "Create Order",
+      "details": "Recorded sale TR-100009 total ₱25",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log_1784048986666",
+      "timestamp": "2026-07-14T17:09:46.666Z",
+      "userId": "usr_1",
+      "userName": "Melliza Peleayo",
+      "userRole": "Cashier",
+      "action": "Create Order",
+      "details": "Recorded sale TR-100008 total ₱25",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log_1784048952257",
+      "timestamp": "2026-07-14T17:09:12.257Z",
+      "userId": "usr_1",
+      "userName": "Melliza Peleayo",
+      "userRole": "Cashier",
+      "action": "Create Order",
+      "details": "Recorded sale TR-100007 total ₱25",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log_1784048859519",
+      "timestamp": "2026-07-14T17:07:39.519Z",
+      "userId": "usr_1",
+      "userName": "Melliza Peleayo",
+      "userRole": "Cashier",
+      "action": "Create Order",
+      "details": "Recorded sale TR-100006 total ₱25",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log_1784048847390",
+      "timestamp": "2026-07-14T17:07:27.390Z",
+      "userId": "usr_1",
+      "userName": "Melliza Peleayo",
+      "userRole": "Cashier",
+      "action": "Create Order",
+      "details": "Recorded sale TR-100005 total ₱25",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log_1784048628761",
+      "timestamp": "2026-07-14T17:03:48.761Z",
+      "userId": "usr_1",
+      "userName": "Melliza Peleayo",
+      "userRole": "Cashier",
+      "action": "Create Order",
+      "details": "Recorded sale TR-100004 total ₱25",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log_1784046545605",
+      "timestamp": "2026-07-14T16:29:05.605Z",
+      "userId": "usr_1",
+      "userName": "Melliza Peleayo",
+      "userRole": "Cashier",
+      "action": "Create Order",
+      "details": "Recorded sale TR-100003 total ₱25",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log_1784045497259",
+      "timestamp": "2026-07-14T16:11:37.259Z",
+      "userId": "usr_1",
+      "userName": "Melliza Peleayo",
+      "userRole": "Cashier",
+      "action": "Create Order",
+      "details": "Recorded sale TR-100002 total ₱526.5",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log_1784040010150",
+      "timestamp": "2026-07-14T14:40:10.150Z",
+      "userId": "usr_1",
+      "userName": "Melliza Peleayo",
+      "userRole": "Super Admin",
+      "action": "Login",
+      "details": "Successful PIN login.",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log_1784037609748",
+      "timestamp": "2026-07-14T14:00:09.749Z",
+      "userId": "usr_1",
+      "userName": "Melliza Peleayo",
+      "userRole": "Super Admin",
+      "action": "Login",
+      "details": "Successful PIN login.",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log_1784032413307",
+      "timestamp": "2026-07-14T12:33:33.307Z",
+      "userId": "usr_1",
+      "userName": "Melliza Peleayo",
+      "userRole": "Cashier",
+      "action": "Create Order",
+      "details": "Recorded sale TR-100001 total ₱26.325",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log_1784032371305",
+      "timestamp": "2026-07-14T12:32:51.305Z",
+      "userId": "usr_1",
+      "userName": "Melliza Peleayo",
+      "userRole": "Super Admin",
+      "action": "Login",
+      "details": "Successful PIN login.",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log_1784032369295",
+      "timestamp": "2026-07-14T12:32:49.295Z",
+      "userId": "usr_1",
+      "userName": "Melliza Peleayo",
+      "userRole": "Super Admin",
+      "action": "Login",
+      "details": "Successful PIN login.",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log_1783621394092",
+      "timestamp": "2026-07-09T18:23:14.092Z",
+      "userId": "usr_1",
+      "userName": "Melliza Peleayo",
+      "userRole": "Super Admin",
+      "action": "Login",
+      "details": "Successful PIN login.",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log_1783621372417",
+      "timestamp": "2026-07-09T18:22:52.417Z",
+      "userId": "usr_1783620921366",
+      "userName": "lylepelayo",
+      "userRole": "Cashier",
+      "action": "Login",
+      "details": "Successful PIN login.",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log_1783620974035",
+      "timestamp": "2026-07-09T18:16:14.035Z",
+      "userId": "usr_1",
+      "userName": "Melliza Peleayo",
+      "userRole": "Super Admin",
+      "action": "Login",
+      "details": "Successful PIN login.",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log_1783620949839",
+      "timestamp": "2026-07-09T18:15:49.839Z",
+      "userId": "usr_1783620921366",
+      "userName": "lylepelayo",
+      "userRole": "Cashier",
+      "action": "Login",
+      "details": "Successful PIN login.",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log_1783620435204",
+      "timestamp": "2026-07-09T18:07:15.204Z",
+      "userId": "usr_1",
+      "userName": "Melliza Peleayo",
+      "userRole": "Super Admin",
+      "action": "Login",
+      "details": "Successful PIN login.",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log_1783620434966",
+      "timestamp": "2026-07-09T18:07:14.966Z",
+      "userId": "usr_1",
+      "userName": "Melliza Peleayo",
+      "userRole": "Super Admin",
+      "action": "Login",
+      "details": "Successful PIN login.",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log_1783610359485",
+      "timestamp": "2026-07-09T15:19:19.485Z",
+      "userId": "usr_1",
+      "userName": "Melliza Peleayo",
+      "userRole": "Super Admin",
+      "action": "Login",
+      "details": "Successful PIN login.",
+      "ipAddress": "127.0.0.1"
+    }
+  ],
+  "employees": [
+    {
+      "id": "usr_1783620921366",
+      "name": "lylepelayo",
+      "email": "lylepelayo@gmail.com",
+      "role": "Cashier",
+      "phone": "",
+      "attendance": "Off-Duty",
+      "monthlySalary": 0,
+      "performanceScore": 90
+    }
+  ],
+  "shiftLogs": [],
+  "sentEmails": [
+    {
+      "id": "eml_1784045497256",
+      "to": "marcus@terracotta.com",
+      "subject": "⚠️ LOW STOCK ALERT (ESSENTIAL ITEM): milo [SKU-554234]",
+      "body": "\n        <div style=\"font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; max-width: 600px; margin: 0 auto; border: 1px solid #e7e5e4; border-radius: 16px; overflow: hidden; background-color: #fafaf9; color: #1c1917; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);\">\n          <!-- Earth Tone Terracotta Header -->\n          <div style=\"background: linear-gradient(135deg, #78350f, #9a3412); padding: 32px 24px; text-align: center; color: #ffffff;\">\n            <div style=\"font-size: 36px; margin-bottom: 10px;\">⚠️</div>\n            <h1 style=\"margin: 0; font-size: 22px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: #fde047;\">\n              Priority Stock Warning\n            </h1>\n            <p style=\"margin: 6px 0 0; font-size: 13px; opacity: 0.9; color: #f5f5f4;\">\n              Enterprise Automated Inventory Notification\n            </p>\n          </div>\n\n          <!-- Main Content -->\n          <div style=\"padding: 24px; background-color: #fafaf9;\">\n            <p style=\"margin-top: 0; font-size: 14px; line-height: 1.6; color: #44403c;\">\n              Attention <strong>Marcus Vance</strong> (Inventory Manager),\n            </p>\n            <p style=\"font-size: 14px; line-height: 1.6; color: #44403c;\">\n              This automated system report has been generated because stock levels for the high-priority <strong>essential item</strong> listed below have fallen below your safety alert threshold of <strong>5 units</strong>.\n            </p>\n\n            <!-- Focus Product Alert Box -->\n            <div style=\"background-color: #ffffff; border: 1px solid #e7e5e4; border-left: 6px solid #b45309; border-radius: 12px; padding: 20px; margin: 24px 0; box-shadow: 0 1px 3px rgba(0,0,0,0.02);\">\n              <table style=\"width: 100%; border-collapse: collapse; font-size: 13px;\">\n                <tr>\n                  <td style=\"padding: 8px 0; color: #78716c; font-weight: 600; width: 140px;\">Essential Product</td>\n                  <td style=\"padding: 8px 0; color: #1c1917; font-weight: 800; font-size: 14px;\">milo</td>\n                </tr>\n                <tr>\n                  <td style=\"padding: 8px 0; color: #78716c; font-weight: 600;\">SKU Identifier</td>\n                  <td style=\"padding: 8px 0; color: #78350f; font-family: monospace; font-weight: bold;\">SKU-554234</td>\n                </tr>\n                <tr>\n                  <td style=\"padding: 8px 0; color: #78716c; font-weight: 600;\">Barcode</td>\n                  <td style=\"padding: 8px 0; color: #44403c; font-family: monospace;\">845228732348</td>\n                </tr>\n                <tr>\n                  <td style=\"padding: 8px 0; color: #78716c; font-weight: 600;\">Current Stock Level</td>\n                  <td style=\"padding: 8px 0; color: #dc2626; font-weight: 900; font-size: 16px; font-family: monospace;\">\n                    2 units\n                  </td>\n                </tr>\n                <tr>\n                  <td style=\"padding: 8px 0; color: #78716c; font-weight: 600;\">Defined Threshold</td>\n                  <td style=\"padding: 8px 0; color: #1c1917; font-weight: 600; font-family: monospace;\">5 units</td>\n                </tr>\n                <tr>\n                  <td style=\"padding: 8px 0; color: #78716c; font-weight: 600;\">Primary Supplier</td>\n                  <td style=\"padding: 8px 0; color: #1c1917; line-height: 1.4;\">\n                    <strong>General Stock Supplier</strong><br/>\n                    <span style=\"font-size: 11px; color: #78716c;\">Contact: N/A • replenishment@terracottapos.com</span>\n                  </td>\n                </tr>\n              </table>\n            </div>\n\n            <!-- Other Low Stock Essential Items Summary Table -->\n            <h3 style=\"font-size: 13px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: #78350f; margin: 32px 0 12px; border-bottom: 2px solid #e7e5e4; padding-bottom: 6px;\">\n              Summary Report: Other Essential Low Stock Items\n            </h3>\n            <p style=\"font-size: 12px; color: #78716c; font-style: italic; margin: 8px 0;\">No other essential items are currently flagged as low-stock.</p>\n\n            <!-- CTA Replenishment Link -->\n            <div style=\"text-align: center; margin: 36px 0 12px;\">\n              <a href=\"https://ais-pre-nhpatb756yl46y6xhuhy26-8001516506.asia-east1.run.app\" style=\"background-color: #78350f; color: #ffffff; text-decoration: none; padding: 12px 24px; font-size: 13px; font-weight: bold; border-radius: 8px; display: inline-block; box-shadow: 0 4px 6px -1px rgba(120, 53, 15, 0.2), 0 2px 4px -1px rgba(120, 53, 15, 0.1);\">\n                Review Stock & Dispatch Reorder\n              </a>\n            </div>\n          </div>\n\n          <!-- Professional Footer -->\n          <div style=\"background-color: #f5f5f4; border-top: 1px solid #e7e5e4; padding: 20px; text-align: center; font-size: 11px; color: #78716c; line-height: 1.5;\">\n            <p style=\"margin: 0 0 4px; font-weight: 600; color: #44403c;\">Red Ant Store - Automated Replenishment Dispatcher</p>\n            <p style=\"margin: 0;\">Sent To: <strong>marcus@terracotta.com</strong> (Inventory Manager)</p>\n            <p style=\"margin: 4px 0 0; font-size: 9px; color: #a8a29e;\">This is an automated system notification. Replies to this address are not monitored.</p>\n          </div>\n        </div>\n      ",
+      "timestamp": "2026-07-14T16:11:37.256Z",
+      "type": "Low Stock Summary",
+      "recipientName": "Marcus Vance",
+      "recipientRole": "Inventory Manager",
+      "isSimulated": true
+    }
+  ],
+  "creditRecords": []
+}
